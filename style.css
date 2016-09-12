@@ -1,0 +1,88 @@
+.body{
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+main{
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.column{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin: 2%;
+  border: 2px solid rgb(46, 82, 49);
+  padding: 30px 10px;
+}
+.input{
+  color: rgb(62, 62, 61);
+  background-color: rgb(184, 207, 206);
+}
+.display{
+  position: fixed;
+  text-align: center;
+  padding: 50px 0;
+}
+#header-box{
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: left;
+  border: 1px solid rgb(162, 182, 181);
+}
+
+#sub-header{
+  margin-left: 50px;
+}
+
+form{
+  margin: 30px 0;
+  border: 1px solid rgb(162, 182, 181);
+  padding: 5px;
+}
+.text-form label{
+  width: 90%;
+}
+.radio-form label{
+  width: 40%;
+}
+label{
+  display: block;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgb(175, 196, 195);
+}
+input{
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+.tahoma{
+  font-family: tahoma;
+}
+.arial{
+  font-family: arial;
+}
+
+.georgia{
+  font-family: georgia;
+}
+
+.icon{
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border: 1px solid rgb(162, 182, 181);
+  background-color: rgb(184, 207, 206);
+}
+
+.icon img{
+  height: 80px;
+  width: 80px;
+}

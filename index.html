@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="input column">
+
+        <form class="text-form">
+          <h3>Create your Header</h3>
+          <label>Add Text<input id="header-text-ad" type="button" name="header-text-ad" value="GO"><input id="header-text" type="text" name="header-text" value="" autofocus="true"></label>
+          <label>Change the Color<input id="header-color-ad" type="button" name="header-color-ad" value="Go"><input id="header-color" type="text" value="black"></label>
+          <form class="radio-form">
+            <h4>Select a Font</h4>
+            <label>Tahoma<input id="header-tahoma" type="radio" name="header-font" value="tahoma"></label>
+            <label>Arial<input id="header-arial" type="radio" name="header-font" value="arial"></label>
+            <label>Georgia<input id="header-georgia" type="radio" name="header-font" value="georgia"></label>
+          </form>
+        </form>
+
+        <form class="text-form">
+          <h3>Create your Sub-Header</h3>
+          <label>Add Text<input id="sub-text-ad" type="button" name="header-text-ad" value="GO"><input id="sub-text" type="text" name="header-text" value=""></label>
+          <label>Change the Color<input id="sub-color-ad" type="button" name="sub-color-ad" value="Go"><input id="sub-color" type="text" name="sub-color" value="black"></label>
+          <form class="radio-form">
+            <h4>Select a Font</h4>
+            <label>Tahoma<input id="sub-tahoma" type="radio" name="sub-font" value="tahoma"></label>
+            <label>Arial<input id="sub-arial" type="radio" name="sub-font" value="arial"></label>
+            <label>Georgia<input id="sub-georgia" type="radio" name="sub-font" value="georgia"></label>
+          </form>
+        </form>
+
+        <form class="radio-form">
+          <h4>Choose an Icon</h4>
+          <label>Octopus<input id="octopus" type="radio" name="icon" value="images/octopus.png"></label>
+          <label>Eagle<input id="eagle" type="radio" name="icon" value="images/eagle.png"></label>
+          <label>Shark<input id="shark" type="radio" name="icon" value="images/shark.png"></label>
+        </form>
+
+        <form class="radio-form">
+          <h4>Choose Where to Place the Icon</h4>
+          <label>Before<input id="before" type="radio" name="sub-font" value=" "></label>
+          <label>After<input id="after" type="radio" name="sub-font" value=" "></label>
+          <label>Append<input id="append" type="radio" name="sub-font" value=" "></label>
+        </form>
+
+        <form class="radio-form">
+          <h4>Hide Effects</h4>
+          <label>Fade-Out<input id="fade-out" type="radio" name="effect" value="Fade-Out"></label>
+          <label>Hide<input id="hide" type="radio" name="effect" value="Hide"></label>
+          <label>Slide-Up<input id="slide-up" type="radio" name="effect" value="Slide-Up"></label>
+        </form>
+
+        <form class="radio-form">
+          <h4>Show Effects</h4>
+          <label>Fade-In<input id="fade-in" type="radio" name="effect" value="Fade-In"></label>
+          <label>Show<input id="show" type="radio" name="effect" value="Show"></label>
+          <label>Slide-Down<input id="slide-down" type="radio" name="effect" value="Slide-Down"></label>
+        </form>
+
+        <form class="radio-form">
+          <h4>Toggle Effects</h4>
+          <label>Toggle<input id="toggle" type="radio" name="effect" value="Toggle"></label>
+          <label>Slide-Toggle<input id="slide-toggle" type="radio" name="effect" value="Slide-Toggle"></label>
+        </form>
+      </div>
+
+      <div class="display column">
+        <h1>Create a Header and<br />Sub-Header</h1>
+        <div id="header-box">
+          <h1 id="header"></h1>
+          <h2 id="sub-header"></h2>
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+
+    </script>
+  </body>
+</html>
